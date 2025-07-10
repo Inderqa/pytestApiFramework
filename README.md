@@ -1,7 +1,14 @@
 # pytestApiFramework
 # Pytest API Testing Framework 🧪
 
-This project is a clean and modular API automation testing framework built using **Python**, **Pytest**, and **Requests**. It covers real-world API testing scenarios including **authentication**, **create/update booking**, and **data validation**.
+This is a **modular, scalable end-to-end test automation framework** built using **Playwright with Python and Pytest**.  
+It follows the **Page Object Model (POM)** design pattern and integrates with **CI tools like GitHub Actions** for continuous testing.
+
+The framework is designed to **automatically trigger tests via GitHub Actions** on every `push` or `pull request` to the repository.
+
+---
+
+## 📁 Folder Structure
 
 ---
 
@@ -19,6 +26,7 @@ This project is a clean and modular API automation testing framework built using
 
 ## 📂 Project Structure
 pythonapiframework/
+├── github/workflows/                # GitHub Actions CI/CD workflows
 ├── tests/
 │   └── test_booking_flow.py         # Test class for booking API
 ├── utils/
