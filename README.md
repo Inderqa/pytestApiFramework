@@ -11,7 +11,7 @@ This project is a clean and modular API automation testing framework built using
 - ✅ End-to-end booking flow: Create → Update → Get → Validate
 - 🔁 Data verification after updates
 - 📦 Organized structure for scalability
-- 📄 Config-driven (using `config.yaml`)
+- 📄 Config-driven (using `config.json`)
 - 🧪 Pytest-compatible test suite
 - 📂 Fixtures and reusable utilities (optional)
 
