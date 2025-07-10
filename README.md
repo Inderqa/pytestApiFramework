@@ -1,7 +1,7 @@
 # pytestApiFramework
 # Pytest API Testing Framework 🧪
 
-This is a **modular, scalable end-to-end test automation framework** built using **Playwright with Python and Pytest**.  
+This is a **modular, scalable end-to-end test automation framework** built using **Python and Pytest**.  
 It follows the **Page Object Model (POM)** design pattern and integrates with **CI tools like GitHub Actions** for continuous testing.
 
 The framework is designed to **automatically trigger tests via GitHub Actions** on every `push` or `pull request` to the repository.
